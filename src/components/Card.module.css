@@ -16,8 +16,7 @@
 .card-logo {
   border-radius: 20px;
   transition: border-radius 0.3s;
-  background-color: red; /* Beispielhafte Farbe für Testzwecke */
-
+ 
 }
 .image {
   margin-top: 20px;
