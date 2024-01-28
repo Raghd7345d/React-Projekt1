@@ -7,9 +7,17 @@
   height: 100%;
   background: linear-gradient(to left, #ff7e5f, #feb47b, white);
   box-shadow: 8px 8px 8px black;
-  border-radius: 8px;
   justify-content: center;
   flex-direction: row-reverse;
+  overflow: hidden;
+  border-radius: none;
+  transition: border-radius 0.3s;
+}
+.card-logo {
+  border-radius: 20px;
+  transition: border-radius 0.3s;
+  background-color: red; /* Beispielhafte Farbe für Testzwecke */
+
 }
 .image {
   margin-top: 20px;

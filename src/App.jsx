@@ -30,6 +30,8 @@ function App() {
               ? "welcome to the React State website. log in to see state in action"
               : "willkommen zur React state website"
           }
+          login ={login}
+
         />
       </div>
 
@@ -47,6 +49,9 @@ function App() {
             loginButton();
           }}
           className="Button__logo"
+          style={{
+            backgroundColor: login ? "red" : "green",
+          }}
         >
           {login ? "Login" : "Logout"}
         </button>
@@ -54,5 +59,4 @@ function App() {
     </>
   );
 }
-
 export default App;
